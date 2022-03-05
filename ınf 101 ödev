@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+    int bolunen, bolen, bolum, kalan;
+    printf("Sayıyı gir: ");
+    scanf("%d", &bolunen);
+    printf("Bölen Sayıyı Gir: ");
+    scanf("%d", &bolen);
+ 
+    
+    bolum = bolunen / bolen;
+    kalan = bolunen % bolen;
+     
+if (bolunen / bolen == 0) 
+  
+    printf("teilbar ");
+    
+  if (bolunen / bolen != 0)   {   
+    
+      
+    }
+    printf("nicht teilbar ");
+    return 0;
+  
+    } 
