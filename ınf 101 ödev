@@ -1,0 +1,31 @@
+int main() {
+    int bolunen ;
+  int kalan ;
+   int bolum ;
+  int bolen ;
+  
+   printf("bolunen sayıyı girin" );
+  scanf("%d" , & bolunen);
+   printf("bolen sayıyı girin" );
+  scanf("%d" , & bolen );
+  
+  
+  
+   kalan = bolunen % bolen;
+ 
+ 
+  if ( bolen == 0   ){
+    printf(" falsche Eingabe ");}
+  
+  else if (bolunen % bolen ==0) {
+    printf("teilbar");
+  }
+   
+  else {
+    printf(" nicht teilbar");
+    } 
+  
+    return 0;
+  
+  
+}
