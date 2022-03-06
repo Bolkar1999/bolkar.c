@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+
+int main() {
+  char Zeichen ;
+  printf(" geben ein Zeichen:");
+  scanf("%c",Zeichen);
+
+
+  if ( Zeichen >=65  &  & Zeichen <=90  || 
+    Zeichen >= 97  &  & Zeichen  <= 122 ) {
+       printf(" das ist ein buchstabe"); 
+    
+       }
+
+  else if ( Zeichen >=48  &  &  Zeichen <= 57 ){
+    
+  
+
+  printf("das ist ein Zahl");
+    }
+    
+ 
+  
+  else {
+      printf("das ist ein Zeichen ");
+        
+  }
+  return 0;
+  //bolkar ünlü 190504036
+}
