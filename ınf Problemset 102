@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main(){
+  int i=0;
+  char b[256];
+
+  printf("bir tuşa basınız : ");
+  scanf("%c",& b);
+
+ 
+
+
+  while(b[i]!=0){
+  if(b[i]>=97 && b[i]<=122)
+  b[i] -= 32;
+  i++;
+  }
+
+  printf("%s",b);
+
+  while(b[i]!=0){
+	if  (b[i]>= 60 &&  b[i]<= 90)
+  printf("%s" , b);
+  else if    (b[i]< 60 && b[i] > 122) ;
+  printf("-1" );
+      
+    
+      
+      
+	}
+ 
+  return 0;
+  }
+  /* hocam programda -1 yazdıramadım :( 
+	 bolkar ünlü 190504036/*
